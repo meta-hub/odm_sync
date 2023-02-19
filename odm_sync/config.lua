@@ -34,7 +34,7 @@ Config = {
         "Stormy_01",
         "StormyLarge_01",
         "TestStormShort",
-        "WEA_TestWind",
+        "TestWind",
         "Winter_Misty_01",
         "Winter_Overcast_01",
         "Winter_Overcast_Windy_01"        
