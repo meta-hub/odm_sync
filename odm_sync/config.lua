@@ -40,6 +40,7 @@ Config = {
         "Winter_Overcast_Windy_01"        
     },
 
+    -- Force next weather type.
     autoWeatherCycles = {
         ["Stormy_01"] = "Rainy",
         ["Rainy"] = "Overcast_01"
