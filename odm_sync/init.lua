@@ -20,6 +20,8 @@ end
 
 local function setWorldWeather(weather)
     world.weather = weather
+
+    print("World weather set: " .. weather)
 end
 
 local function syncWorld()
