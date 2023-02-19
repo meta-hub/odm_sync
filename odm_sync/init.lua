@@ -67,7 +67,7 @@ local function handleDateTick(date)
     return false
 end
 
-local function handleWeatherTick(time)
+local function handleWeatherTick()
     if totalTime - prevWeatherChange >= Config.weatherChangeTime then
         if Config.autoWeatherCycles[curWeather] then
             curWeather = Config.autoWeatherCycles[curWeather]
@@ -102,7 +102,7 @@ registerForEvent("update", function(time)
     end
 
     if Config.syncWeather then
-        if handleWeatherTick(time) then
+        if handleWeatherTick() then
             doSync = true
         end
     end
