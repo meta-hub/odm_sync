@@ -113,3 +113,7 @@ registerForEvent("update", function(time)
 
     totalTime = totalTime + time
 end)
+
+registerForEvent("player_joined", function()
+    syncWorld()
+end)
